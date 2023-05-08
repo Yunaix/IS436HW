@@ -19,6 +19,6 @@ jobs:
           server: gl.umbc.edu
           username: ${{secrets.ftp_username}}
           password: ${{ secrets.ftp_password }}
-          local_path: 'C:\Users\eunic\OneDrive\Desktop\IS 436\IS436lab\Lab5'
+          local_path: '/afs/umbc.edu/users/e/u/eunicea2/pub/swe2023'
           remote_path: '/afs/umbc.edu/users/s/s/ss12/pub/www/lab5'
           sftp_only: true
